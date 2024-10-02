@@ -55,7 +55,6 @@ get_header();
             </article>
         </section>
 
-
         <section id="studio">
             <h2>Studio Koukaki</h2>
             <div>
@@ -63,6 +62,10 @@ get_header();
                 <p>Avec une créativité et une capacité d’innovation mondialement reconnues, une expertise éditoriale et commerciale à la pointe de son industrie, le Studio Koukaki se positionne comme un acteur incontournable dans un marché en forte croissance. Koukaki construit chaque année de véritables succès et capitalise sur de puissantes marques historiques. Cette année, il vous présente “Fleurs d’oranger et chats errants”.</p>
             </div>
             </section>
+            
+        <!-- Ajout de la section oscar -->
+        <?php get_template_part('template-parts/section-oscar');?>
+
     </main><!-- #main -->
 
 <?php
