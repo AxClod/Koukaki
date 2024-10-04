@@ -1,1 +1,29 @@
-/*# sourceMappingURL=fade-in.css.map */
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: opacity 0.5s, transform 1s;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fadeInverse {
+  animation: fadeInverse 2s ease-in-out;
+}
+
+@keyframes fadeInverse {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=fade-in.css.map */

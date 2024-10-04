@@ -1,1 +1,25 @@
-/*# sourceMappingURL=title-animation.css.map */
+.titre-animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.2s ease-in, transform 0.6s ease-in;
+}
+.titre-animation.visibility {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.titre-animation span:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.titre-animation span:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.titre-animation span:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.titre-animation span:nth-child(4) {
+  transition-delay: 0.4s;
+}/*# sourceMappingURL=title-animation.css.map */
