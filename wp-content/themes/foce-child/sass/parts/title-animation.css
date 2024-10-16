@@ -1,0 +1,31 @@
+@keyframes AnimationTitre {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.AnimationTitre {
+  display: flex;
+  justify-content: flex-start;
+}
+.AnimationTitre__mot {
+  opacity: 0;
+  animation-name: AnimationTitre;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+.AnimationTitre__mot--0 {
+  animation-delay: 0s;
+}
+.AnimationTitre__mot--1 {
+  animation-delay: 0.2s;
+}
+.AnimationTitre__mot--2 {
+  animation-delay: 0.4s;
+}/*# sourceMappingURL=title-animation.css.map */

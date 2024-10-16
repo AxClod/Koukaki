@@ -1,0 +1,22 @@
+#characters .main-character h3 {
+  max-width: 1440px;
+}
+#characters .swiper {
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#characters .swiper .swiper-wrapper {
+  width: 2000px;
+}
+#characters .swiper .swiper-wrapper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px !important;
+  height: 400px;
+}
+#characters .swiper .swiper-wrapper .swiper-slide img {
+  display: block;
+  width: 100%;
+}/*# sourceMappingURL=swiper-characters.css.map */
