@@ -16,6 +16,9 @@
     }
 }
 
+.fadeIn p {
+    animation: none;
+}
 
 .fadeInverse {
     animation: fadeInverse 2s ease-in-out;

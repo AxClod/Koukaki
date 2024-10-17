@@ -13,6 +13,10 @@
     transform: translateY(0);
   }
 }
+.fadeIn p {
+  animation: none;
+}
+
 .fadeInverse {
   animation: fadeInverse 2s ease-in-out;
 }
@@ -133,7 +137,7 @@
 @keyframes AnimationTitre {
   0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(100px);
   }
   100% {
     opacity: 1;

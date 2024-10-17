@@ -13,6 +13,10 @@
     transform: translateY(0);
   }
 }
+.fadeIn p {
+  animation: none;
+}
+
 .fadeInverse {
   animation: fadeInverse 2s ease-in-out;
 }

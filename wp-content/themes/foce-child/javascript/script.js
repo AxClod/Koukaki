@@ -20,8 +20,8 @@ function addAnimationTitre(titre) {
     mots.forEach((mot, i) => {
         var span = document.createElement('span');
         span.textContent = mot;
-        span.classList.add('animationTitre__mot');
-        span.classList.add('animationTitre__mot--' + i); // Classe unique pour chaque mot
+        span.classList.add('AnimationTitre__mot');
+        span.classList.add('AnimationTitre__mot--' + i); // Classe unique pour chaque mot
         titre.appendChild(span);
         titre.appendChild(document.createTextNode(' ')); // Ajoute un espace après chaque mot
     });
