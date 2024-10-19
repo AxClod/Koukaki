@@ -1,16 +1,3 @@
-// Fade in sur les sections avec la class fade-in //
-let observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('fadeIn');
-        return;
-      }
-    });
-  });
-  const section = document.querySelectorAll('.banner, #story, #characters, #place, #studio, .nomination-oscar, .site-footer');
-  section.forEach((element) => observer.observe(element));
-
-
 // Animation des titres //
 function addAnimationTitre(titre) {
     var mots = titre.textContent.split(' '); // Sépare le texte du titre en mots

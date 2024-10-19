@@ -1,7 +1,6 @@
 //Navbar 
 .main-navigation {
     display: flex;
-    position: fixed;
     width: 1440px;
 
     ul {
@@ -126,22 +125,22 @@
     &__logo {
         left: 640px;
         top: 100px;
-        width: 154px;
+        width: 155px;
         height: 95px;
     }
 
     &__sun-flower {
         top: 115px;
         left: 1020px;
-        width: 216px;
-        height: 216px;
+        width: 215px;
+        height: 215px;
     }
     
     &__orchid-flower {
         top: 140px;
         left: -50px;
         width: 150px;
-        height: 148px;
+        height: 150px;
     }
     
     &__petal-flower {
@@ -161,8 +160,8 @@
     &__hibiscus-flower {
         top: 690px;
         left: 1135px;
-        width: 626px;
-        height: 626px;
+        width: 625px;
+        height: 625px;
     }
     
     &__blue-cat {

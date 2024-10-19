@@ -1,0 +1,176 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner_logo {
+    top: 325px;
+    left: 225px;
+  }
+  .main-navigation ul {
+    margin-left: 205px;
+  }
+  .navbar-burger {
+    margin-left: 125px;
+  }
+  .burger-open {
+    width: 100%;
+  }
+  .burger-open__logo {
+    left: 325px;
+  }
+  .burger-open__sun-flower {
+    top: 115px;
+    left: 530px;
+    width: 165px;
+    height: 165px;
+  }
+  .burger-open__petal-flower {
+    top: 530px;
+  }
+  .burger-open__pink-flower {
+    top: 320px;
+    left: 725px;
+  }
+  .burger-open__hibiscus-flower {
+    top: 820px;
+    left: 555px;
+    width: 420px;
+    height: 420px;
+  }
+  .burger-open__blue-cat {
+    top: 280px;
+    left: 75px;
+  }
+  .burger-open__orange-cat {
+    top: 795px;
+    left: 25px;
+  }
+  .burger-open__black-cat {
+    left: 565px;
+  }
+  /* Section story et place */
+  .story #place {
+    min-height: 0;
+  }
+  .story #place div {
+    display: block;
+    margin-left: 2em !important;
+    margin-top: 30px;
+  }
+  .story #place .big-cloud {
+    width: 200px;
+    height: 100px;
+    top: -245px;
+    left: 600px;
+  }
+  .story #place .little-cloud {
+    top: -230px;
+    left: 210px;
+  }
+  .story #place h3 {
+    text-align: left;
+    background-position: left;
+    margin-left: 30px;
+    padding: 1em 1.3em;
+  }
+  #characters .main-character h3 {
+    max-width: 100%;
+  }
+  #characters .swiper {
+    max-width: 100%;
+  }
+  .nomination-oscar {
+    margin-left: 0;
+  }
+  .nomination-oscar_titre {
+    font-size: 20px;
+    padding: 1.8em 3em;
+    line-height: 35px;
+  }
+  .nomination-oscar img {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 425px;
+  }
+  .banner_video {
+    display: none;
+  }
+  .banner_logo {
+    top: 185px;
+    left: 110px;
+    animation: none;
+  }
+  .main-navigation ul {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .main-navigation ul .site-title {
+    display: block;
+    font-size: 15px;
+  }
+  .navbar-burger {
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .burger-open ul {
+    text-align: justify;
+    margin-left: 110px;
+    margin-bottom: 0;
+  }
+  .burger-open li {
+    font-size: 30px;
+    line-height: 100px;
+  }
+  .burger-open p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 135px;
+  }
+  .burger-open__logo {
+    left: 120px;
+    top: 80px;
+    width: 155px;
+    height: 95px;
+  }
+  #characters .main-character h3 {
+    max-width: 100%;
+  }
+  #characters .swiper {
+    max-width: 100%;
+  }
+  #characters .swiper .swiper-slide {
+    width: 200px !important;
+    height: 200px;
+  }
+  .story #place {
+    min-height: 0;
+  }
+  .story #place div {
+    display: block;
+    margin-left: 2em !important;
+    margin-top: 310px;
+  }
+  .story #place h3 {
+    text-align: left;
+    background-position: left;
+    margin-left: 30px;
+    padding: 1em 1.3em;
+  }
+  .nomination-oscar {
+    margin-left: 0;
+  }
+  .nomination-oscar_container {
+    flex-direction: column;
+  }
+  .nomination-oscar_titre {
+    font-size: 15px;
+    padding: 1.8em 4em;
+    line-height: 25px;
+    margin-top: 40px;
+  }
+  .nomination-oscar img {
+    margin: auto;
+  }
+}/*# sourceMappingURL=responsive.css.map */

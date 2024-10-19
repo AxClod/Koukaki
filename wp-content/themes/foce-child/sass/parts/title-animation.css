@@ -8,10 +8,6 @@
     transform: translateY(0px);
   }
 }
-.AnimationTitre {
-  display: flex;
-  justify-content: flex-start;
-}
 .AnimationTitre__mot {
   opacity: 0;
   animation-name: AnimationTitre;

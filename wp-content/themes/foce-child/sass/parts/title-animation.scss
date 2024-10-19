@@ -11,8 +11,6 @@
 }
 
 .AnimationTitre {
-    display: flex;
-    justify-content: flex-start;
     &__mot {
         opacity: 0;
         animation-name: AnimationTitre; 

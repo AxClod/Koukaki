@@ -5,7 +5,7 @@ get_header();
 
     <main id="primary" class="site-main">
     <?php get_template_part ('template-parts/section-banner'); ?>
-        <section id="#story" class="story">
+        <section id="#story" class="story fadeIn">
             <h2 class="AnimationTitre" >L'histoire</h2>
             <article id="" class="story__article">
                 <p><?php echo get_theme_mod('story'); ?></p>
@@ -20,13 +20,13 @@ get_header();
             );
             $characters_query = new WP_Query($args);
             ?>
-            <article id="characters">
+            <article id="characters" class="fadeIn">
                 <div class="main-character">
                     <h3 class="AnimationTitre">Les personnages</h3>
                     <?php get_template_part('template-parts/swiper-characters'); ?>
                 </div>
             </article>
-            <article id="place">
+            <article id="place" class="fadeIn">
                 <div>
                     <h3 class="AnimationTitre">Le Lieu</h3>
                     <p><?php echo get_theme_mod('place'); ?></p>
@@ -37,7 +37,7 @@ get_header();
             </article>
         </section>
 
-        <section id="studio">
+        <section id="studio" class="fadeIn">
             <h2 class="AnimationTitre">Studio Koukaki</h2>
             <div>
                 <p>Acteur majeur de l’animation, Koukaki est un studio intégré fondé en 2012 qui créé, produit et distribue des programmes originaux dans plus de 190 pays pour les enfants et les adultes. Nous avons deux sections en activité : le long métrage et le court métrage. Nous développons des films fantastiques, principalement autour de la culture de notre pays natal, le Japon.</p>
