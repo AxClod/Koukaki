@@ -13,8 +13,8 @@
     transform: translateY(0);
   }
 }
-.fadeIn p {
-  animation: none;
+.story__article p, #place p, #studio p {
+  animation: none !important;
 }
 
 .fadeInverse {

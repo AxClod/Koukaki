@@ -95,14 +95,19 @@
     // Section personnages //
 
     #characters {
-        .main-character h3{
-            max-width: 100%;
-        }
+        max-width: 100%;
+        max-width: 1024px;
+        overflow-x: hidden;
+
         
         .swiper {
             max-width: 100%;
+            .swiper-wrapper {
+                max-width: 100%;
+                max-width: 1024px;
         }
     }
+}
 
     // Section nomination-oscar //
 
@@ -191,13 +196,18 @@
     #characters {
         .main-character h3{
             max-width: 100%;
+            overflow-x: hidden;
         }
         
         .swiper {
             max-width: 100%;
-                .swiper-slide {
-                width: 200px !important;
-                height: 200px;
+            .swiper-wrapper {
+                max-width: 100%;
+                max-width: 767px;
+                    .swiper-slide {
+                    width: 200px !important;
+                    height: 200px;
+                    }
             }
         }
     }
@@ -219,6 +229,12 @@
             margin-left: 30px;
             padding: 1em 1.3em;
         }
+    }
+
+    // Section lieu //
+
+    .story #place {
+        overflow-x: hidden;
     }
 
     // Section nomination-oscar //

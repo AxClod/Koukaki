@@ -30,24 +30,27 @@ sectionTitre.forEach((element) => observerTitre.observe(element));
 // Parallaxe entre la video et le titre dans la banner //
 
 document.addEventListener('DOMContentLoaded', function () {
-    const video = document.querySelector('.banner_video');
     const logo = document.querySelector('.banner_logo');
+    let scrollTimeout;
 
-    function applyParallax() {
-        if (window.innerWidth > 768) { // Désactiver sur les écrans inférieurs à 768px
-            window.addEventListener('scroll', function () {
-                let scrollPosition = window.scrollY;
+    window.addEventListener('scroll', function () {
+        let scrollPosition = window.scrollY;
 
-                video.style.transform = 'translateY(' + scrollPosition * 0.3 + 'px)';
-                logo.style.transform = 'translateY(' + scrollPosition * 0.7 + 'px)';
-            });
-        }
-    }
+        // Désactiver temporairement l'animation CSS pendant le scroll
+        logo.style.animation = 'none';
 
-    applyParallax();
-    window.addEventListener('resize', applyParallax); // Re-appliquer le parallaxe au redimensionnement de l'écran
+        // Appliquer l'effet de parallaxe pour le logo (il remonte plus vite que le scroll)
+        logo.style.transform = 'translateY(' + scrollPosition * -0.5 + 'px)';
+
+        // Réactiver l'animation floatLogo après que le scroll s'arrête
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(function () {
+            // Réinitialiser l'animation et la transformation
+            logo.style.animation = '';  // Remet l'animation originale
+            logo.style.transform = '';  // Réinitialise la transformation pour que l'animation fonctionne bien
+        }, 150); // 150ms après la fin du scroll
+    });
 });
-
 
 //SwiperJS Coverflow dans la section personnages //
 

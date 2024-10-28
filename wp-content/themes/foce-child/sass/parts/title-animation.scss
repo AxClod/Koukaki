@@ -2,22 +2,28 @@
 @keyframes AnimationTitre {
     0% {
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(100px); // Départ en bas
     }
     100% {
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateY(0px);   // Arrivée à sa position initiale
     }
 }
 
 .AnimationTitre {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.3em;
     &__mot {
         opacity: 0;
+        transform: translateY(100px); 
         animation-name: AnimationTitre; 
         animation-duration: 0.6s;
         animation-iteration-count: 1; 
         animation-timing-function: ease-in;
         animation-fill-mode: forwards;
+
+
         // Animation pour chaque mot avec des délais différents
         &--0 { 
             animation-delay: 0s;
@@ -33,3 +39,12 @@
     }
 }
 
+.main-character h3{
+    display:flex;
+    justify-content: center;
+}
+
+#studio h2{
+    display:flex;
+    justify-content: center;
+}

@@ -12,9 +12,7 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-.fadeIn p {
-  animation: none;
+
 }
 
 .fadeInverse {
@@ -31,10 +29,12 @@
     transform: translateY(0);
   }
 }
+
 .story h2::after {
   height: 155px;
   animation: rotate 15s infinite linear;
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0);
@@ -144,8 +144,14 @@
     transform: translateY(0px);
   }
 }
+.AnimationTitre {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3em;
+}
 .AnimationTitre__mot {
   opacity: 0;
+  transform: translateY(100px);
   animation-name: AnimationTitre;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
@@ -160,6 +166,16 @@
 }
 .AnimationTitre__mot--2 {
   animation-delay: 0.4s;
+}
+
+.main-character h3 {
+  display: flex;
+  justify-content: center;
+}
+
+#studio h2 {
+  display: flex;
+  justify-content: center;
 }
 
 .banner {
@@ -212,8 +228,9 @@
   }
 }
 #characters .main-character h3 {
-  max-width: 1440px;
+  max-width: 580px;
   text-align: center;
+  background-position: center;
 }
 #characters .swiper {
   max-width: 1440px;
