@@ -11,6 +11,9 @@
 }
 
 .AnimationTitre {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.3em;
     &__mot {
         opacity: 0;
         transform: translateY(100px); 
@@ -36,3 +39,12 @@
     }
 }
 
+.main-character h3{
+    display: flex;
+    justify-content: center;
+}
+
+#studio h2{
+    display: flex;
+    justify-content: center;
+}

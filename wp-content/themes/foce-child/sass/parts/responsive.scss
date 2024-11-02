@@ -9,6 +9,11 @@
 
     // Menu burger //
 
+    .main-navigation {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     .main-navigation ul {
         margin-left: 205px;
     }

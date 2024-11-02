@@ -3,6 +3,10 @@
     top: 325px;
     left: 225px;
   }
+  .main-navigation {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .main-navigation ul {
     margin-left: 205px;
   }
